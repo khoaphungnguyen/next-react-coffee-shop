@@ -10,7 +10,7 @@ const Card = (prop) => {
             <div className={cls("glass",styles.container)}>
                 <div className={styles.CardHeaderWrapper}>
                 <h2 className={styles.cardHeader}>{prop.name}</h2>
-                </div>"
+                </div>
                 <div className={styles.cardImageWrapper}> <Image className={styles.cardImage} src={prop.imgUrl} width={260} height={160} />          
                 </div>
                 </div>
